@@ -26,6 +26,18 @@ Create a new conda environment from the [`conda.yml`](environment/conda.yml) fil
 conda env create -f environment/conda.yml
 ```
 
+### Create environment variables
+
+Create a new file called `.env` in the root of the repository. Add the following environment variables to the file:
+
+```bash
+AZURE_RESOURCE_NAME=<your-resource-name>
+OPENAI_API_KEY=<your-api-key>
+OPENAI_DEPLOYMENT_NAME=<your-deployment-name>
+```
+
+These environment variables are used to connect to your Azure OpenAI resource. You can find the values for these variables in the Azure portal.
+
 ### Run the Notebook
 
 Open the jupyter notebook [`prompt-engineering.ipynb`](src/prompt-engineering.ipynb), choose a use-case and run the notebook. Ensure you run this notebook in the conda environment you created earlier.
