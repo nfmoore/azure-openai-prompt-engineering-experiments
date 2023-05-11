@@ -1,0 +1,8 @@
+name: azure-openai-experiments
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - openai=0.27.6
