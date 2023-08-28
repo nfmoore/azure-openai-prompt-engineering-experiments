@@ -16,6 +16,14 @@ Two publically available texts have been used in these experiments:
 - [Microsoft 2022 Shareholder Letter](https://www.microsoft.com/investor/reports/ar22/download-center/)
 - [Reuters news article on the Microsoft acquisition of Activision Blizzard](https://www.nasdaq.com/articles/uk-blocks-microsoft-$69-bln-activision-deal-over-cloud-gaming-concerns)
 
+> **Note:**
+>
+> All experiments have been conducted with following Azure OpenAI deployment:
+> - Model name: gpt-35-turbo-16k
+> - Model version: 0613
+>
+> It is recommended to use the same deployment to reproduce the results.
+
 ## Getting Started
 
 ### Create conda environment
